@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+#btn:hover {
+    background-color: rgb(8, 8, 121);
+}
