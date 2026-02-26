@@ -1,0 +1,15 @@
+import { Virtuoso } from 'react-virtuoso'
+
+export default function App({list}) {
+  return (
+    <Virtuoso style={{ height: '30rem' }} 
+//   totalCount={200}
+    data={list}
+  itemContent={(index, item) => {
+    return (
+        <div>Item {item}</div>
+    )
+}} />
+  )
+  
+}
